@@ -33,7 +33,7 @@ Delete products by their IDs through DELETE requests.
 Learning Outcome:
 I learned a lot doing this project. Did refer to a tutorial to get idea about connectivity and also learnt about Lombok
 there. Then I took the idea and I started this project. I learnt a lot about Spring Jpa, Mappings, ResponseEntities,pos-
-tman. In short, I learned the following:
+tman. In short, I learnt the following:
 RESTful API design principles.
 Establishing database connectivity and leveraging Spring JPA for database operations.
 Utilizing Lombok annotations to simplify code structure and improve maintainability.
