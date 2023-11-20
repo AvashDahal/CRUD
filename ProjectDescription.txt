@@ -1,0 +1,50 @@
+This is my 2nd springboot practice project. Here I focused on implementation of a RESTful API that facilitates CRUD
+(Create, Read, Update, Delete)operations for managing products.
+This practice project was my way to gain hands-on experience in developing a backend application.
+Features I implemented:
+
+Connectivity and Spring JPA:
+
+I understood the establishment of a robust connection between the backend application and a relational database(MySql)
+using dependency.
+I used Spring Data JPA, which provides a powerful way to interact with the database through JPA repositories.
+I found this to be efficient in performing database operations.
+
+Lombok Annotations:
+
+I used Lombok annotations which reduced boilerplate code, improved code readability, and well is less tedious than using
+the conventional method
+More specifically I used annotations such as @Data, @Getter, @Setter, @NoArgsConstructor, @AllArgsConstructor etc,
+to automatically generate getters, setters, constructors, and other repetitive code structures.
+
+RESTful API Mappings:
+
+I implemented RESTful API endpoints for CRUD operations to manage product entities.
+Utilized HTTP methods (GET, POST, PUT, DELETE) and appropriate URL mappings to handle corresponding CRUD operations.
+
+CRUD Operations:
+
+This application has CRUD functionality for products, that enables users to:
+Create new products by providing essential details like name, quantity, and price through POST requests.
+Retrieve a list of all products or specific products by their IDs or names through GET requests.
+Update existing products by modifying their attributes via PUT requests.
+Delete products by their IDs through DELETE requests.
+
+Learning Outcome:
+I learned a lot doing this project. Did refer to a tutorial to get idea about connectivity and also learnt about Lombok
+there. Then I took the idea and I started this project. I learnt a lot about Spring Jpa, Mappings, ResponseEntities,pos-
+tman. In short, I learned the following:
+RESTful API design principles.
+Establishing database connectivity and leveraging Spring JPA for database operations.
+Utilizing Lombok annotations to simplify code structure and improve maintainability.
+Practicing and implementing CRUD operations using Spring Boot, enabling data manipulation within the application.
+
+Future Enhancements:
+
+While this project focused on fundamental CRUD operations, I understood there are still many future enhancements
+that can be made like:
+
+Implementing authentication and authorization mechanisms to secure endpoints.
+Adding validation checks to ensure data integrity.
+Implementing additional functionalities such as pagination, sorting, or filtering for product retrieval.
+Enhancing error handling and providing meaningful responses for different scenarios.
